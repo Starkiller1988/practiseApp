@@ -1,9 +1,10 @@
 import React from 'react'
+import ToDo from './ToDo'
 
 export default function ToDoList({ todos }) {
     return (
-        <div>
-            {todos.length}
-        </div>
+       todos.map(todo => {
+           return <ToDo key={todo.id} todo={todo} />
+       })
     )
 }
