@@ -1,9 +1,10 @@
 import React from 'react'
+import 
 
-export default function ToDoList({ todos }) {
+export default function ToDo({ todo }) {
     return (
         <div>
-            {todos.length}
+            
         </div>
     )
 }
